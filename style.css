@@ -1,27 +1,27 @@
-/* style.css */
 body {
     font-family: Arial, sans-serif;
-    background: #f1f1f1;
     display: flex;
+    background-color: #242424;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
 .container {
-    display: grid;
-    background: white;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 10px 10px 80px #ffffff55;
     width: 90%;
     max-width: 500px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input {
+    width: 100%;
     padding: 10px;
     margin-top: 10px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 button {
@@ -29,6 +29,7 @@ button {
     padding: 10px;
     margin-top: 10px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 #resultado {
